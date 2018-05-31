@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.dagger:dagger-spi:2.16'
+}
